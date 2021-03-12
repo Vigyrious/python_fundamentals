@@ -1,0 +1,9 @@
+string = input()
+new_string = ""
+for chars in string:
+    if len(new_string) == 0:
+        new_string+=chars
+    else:
+        if new_string[len(new_string) - 1] != chars:
+            new_string += chars
+print(new_string)

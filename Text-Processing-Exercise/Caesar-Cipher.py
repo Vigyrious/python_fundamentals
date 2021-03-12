@@ -1,0 +1,5 @@
+string = input()
+encrypt = ""
+for char in string:
+    encrypt += chr(ord(char)+3)
+print(encrypt)

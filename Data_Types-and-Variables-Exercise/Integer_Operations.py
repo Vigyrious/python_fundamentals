@@ -1,0 +1,5 @@
+num1 = int(input())
+num2 = int(input())
+divide = int(input())
+multi = int(input())
+print(f"{int((num1+num2)/divide)*multi}")
